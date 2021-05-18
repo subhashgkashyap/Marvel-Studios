@@ -1,0 +1,236 @@
+body {
+    background: #262931;
+    font-family: Calibri;
+    align-items: center;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+p {
+    background-color: black;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    border: 2px solid white;
+}
+
+.box {
+    margin: 15px;
+    padding: 15px;
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background-color: black;
+}
+
+.box::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.box:hover {
+    transform: scale(1.04, 1.04);
+}
+
+.box:hover::after {
+    opacity: 1;
+}
+
+.blackwidow {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.blackwidow img {
+    size: 15px;
+    padding: 5px;
+    width: 355px;
+    height: 550px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.shangchi {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.shangchi img {
+    size: 15px;
+    padding: 5px;
+    width: 355px;
+    height: 550px;
+}
+
+.eternals {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.eternals img {
+    size: 15px;
+    padding: 5px;
+    width: 355px;
+    height: 550px;
+}
+
+.nowayhome {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.nowayhome img {
+    size: 15px;
+    width: 355px;
+    height: 550px;
+    padding: 5px;
+}
+
+.multiverse {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.multiverse img {
+    size: 15px;
+    width: 355px;
+    height: 550px;
+    padding: 5px;
+    align-items: center;
+}
+
+.loveandthunder {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.loveandthunder img {
+    size: 15px;
+    width: 355px;
+    height: 550px;
+    padding: 5px;
+}
+
+.wakandaforever {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.wakandaforever img {
+    size: 15px;
+    width: 355px;
+    height: 550px;
+    padding: 5px;
+}
+
+.marvels {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.marvels img {
+    size: 15px;
+    width: 355px;
+    height: 550px;
+    padding: 5px;
+}
+
+.quantumania {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.quantumania img {
+    size: 15px;
+    width: 355px;
+    height: 550px;
+    padding: 5px;
+}
+
+.gotg3 {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.gotg3 img {
+    size: 15px;
+    width: 355px;
+    height: 550px;
+    padding: 5px;
+}
+
+.fantasticfour {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.fantasticfour img {
+    size: 15px;
+    width: 355px;
+    height: 550px;
+    padding: 5px;
+}
+
+img {
+    background-color: black;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+footer li {
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer li:hover {
+    background-color: rgb(131, 134, 134);
+}
+
+footer li a:hover {
+    color: #1a1f2e;
+}

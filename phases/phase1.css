@@ -1,0 +1,163 @@
+body {
+    background: #262931;
+    font-family: Calibri;
+    align-items: center;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.box {
+    margin: 15px;
+    padding: 15px;
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background-color: black;
+}
+
+.box::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.box:hover {
+    transform: scale(1.04, 1.04);
+}
+
+.box:hover::after {
+    opacity: 1;
+}
+
+.ironman1 {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.ironman1 img {
+    size: 15px;
+    padding: 5px;
+    width: 355px;
+    height: 550px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.hulk {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.hulk img {
+    size: 15px;
+    padding: 5px;
+    width: 355px;
+    height: 550px;
+}
+
+.ironman2 {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.ironman2 img {
+    size: 15px;
+    padding: 5px;
+    width: 355px;
+    height: 550px;
+}
+
+.thor {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.thor img {
+    size: 15px;
+    width: 355px;
+    height: 550px;
+    padding: 5px;
+}
+
+.cap {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.cap img {
+    size: 15px;
+    width: 355px;
+    height: 550px;
+    padding: 5px;
+    align-items: center;
+}
+
+.avengers {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.avengers img {
+    size: 15px;
+    width: 355px;
+    height: 550px;
+    padding: 5px;
+}
+
+img {
+    background-color: black;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+footer li {
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer li:hover {
+    background-color: rgb(131, 134, 134);
+}
+
+footer li a:hover {
+    color: #1a1f2e;
+}

@@ -1,0 +1,228 @@
+body {
+    background: #262931;
+    font-family: Calibri;
+    align-items: center;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.box {
+    margin: 15px;
+    padding: 15px;
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background-color: black;
+}
+
+.box::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.box:hover {
+    transform: scale(1.04, 1.04);
+}
+
+.box:hover::after {
+    opacity: 1;
+}
+
+.civilwar {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.civilwar img {
+    size: 15px;
+    padding: 5px;
+    width: 355px;
+    height: 550px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.doctorstrange {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.doctorstrange img {
+    size: 15px;
+    padding: 5px;
+    width: 355px;
+    height: 550px;
+}
+
+.gotg2 {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.gotg2 img {
+    size: 15px;
+    padding: 5px;
+    width: 355px;
+    height: 550px;
+}
+
+.homecoming {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.homecoming img {
+    size: 15px;
+    width: 355px;
+    height: 550px;
+    padding: 5px;
+}
+
+.ragnarok {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.ragnarok img {
+    size: 15px;
+    width: 355px;
+    height: 550px;
+    padding: 5px;
+    align-items: center;
+}
+
+.blackpanther {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.blackpanther img {
+    size: 15px;
+    width: 355px;
+    height: 550px;
+    padding: 5px;
+}
+
+.infinitywar {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.infinitywar img {
+    size: 15px;
+    width: 355px;
+    height: 550px;
+    padding: 5px;
+}
+
+.wasp {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.wasp img {
+    size: 15px;
+    width: 355px;
+    height: 550px;
+    padding: 5px;
+}
+
+.marvel {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.marvel img {
+    size: 15px;
+    width: 355px;
+    height: 550px;
+    padding: 5px;
+}
+
+.endgame {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.endgame img {
+    size: 15px;
+    width: 355px;
+    height: 550px;
+    padding: 5px;
+}
+
+.farfromhome {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.farfromhome img {
+    size: 15px;
+    width: 355px;
+    height: 550px;
+    padding: 5px;
+}
+
+img {
+    background-color: black;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+footer li {
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer li:hover {
+    background-color: rgb(131, 134, 134);
+}
+
+footer li a:hover {
+    color: #1a1f2e;
+}
