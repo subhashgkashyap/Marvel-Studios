@@ -26,6 +26,7 @@ p {
     display: inline-block;
     width: auto;
     height: auto;
+    word-wrap: normal;
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
     background-color: black;
 }
@@ -61,10 +62,9 @@ p {
     height: 550px;
 }
 
-h2 {
+h3 {
     text-align: center;
     color: white;
-    font-size: 20px;
 }
 
 .shangchi {
@@ -101,9 +101,9 @@ h2 {
 
 .nowayhome img {
     size: 15px;
+    padding: 5px;
     width: 355px;
     height: 550px;
-    padding: 5px;
 }
 
 .multiverse {
@@ -114,10 +114,9 @@ h2 {
 
 .multiverse img {
     size: 15px;
+    padding: 5px;
     width: 355px;
     height: 550px;
-    padding: 5px;
-    align-items: center;
 }
 
 .loveandthunder {
@@ -128,9 +127,9 @@ h2 {
 
 .loveandthunder img {
     size: 15px;
+    padding: 5px;
     width: 355px;
     height: 550px;
-    padding: 5px;
 }
 
 .wakandaforever {
@@ -141,9 +140,9 @@ h2 {
 
 .wakandaforever img {
     size: 15px;
+    padding: 5px;
     width: 355px;
     height: 550px;
-    padding: 5px;
 }
 
 .marvels {
@@ -154,9 +153,9 @@ h2 {
 
 .marvels img {
     size: 15px;
+    padding: 5px;
     width: 355px;
     height: 550px;
-    padding: 5px;
 }
 
 .quantumania {
@@ -167,9 +166,9 @@ h2 {
 
 .quantumania img {
     size: 15px;
+    padding: 5px;
     width: 355px;
     height: 550px;
-    padding: 5px;
 }
 
 .gotg3 {
@@ -180,9 +179,9 @@ h2 {
 
 .gotg3 img {
     size: 15px;
+    padding: 5px;
     width: 355px;
     height: 550px;
-    padding: 5px;
 }
 
 .fantasticfour {
@@ -193,9 +192,9 @@ h2 {
 
 .fantasticfour img {
     size: 15px;
+    padding: 5px;
     width: 355px;
     height: 550px;
-    padding: 5px;
 }
 
 img {
